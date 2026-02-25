@@ -48,8 +48,8 @@ export function Hero() {
         <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-24 pb-16 px-6">
             {/* Background gradient */}
             <div className="absolute inset-0 -z-10">
-                <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-secondary/30" />
-                <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[600px] rounded-full bg-primary/3 blur-3xl" />
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/20 to-secondary/10" />
+                <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[600px] rounded-full bg-primary/5 blur-3xl" />
             </div>
 
             <div className="max-w-5xl mx-auto text-center">

@@ -132,7 +132,7 @@ export function ScrollSection() {
             </section>
 
             {/* Gallery Section */}
-            <section id="gallery" className="py-24 sm:py-32 px-6 bg-secondary/30">
+            <section id="gallery" className="py-24 sm:py-32 px-6 bg-secondary/5">
                 <div className="max-w-6xl mx-auto">
                     <motion.div
                         initial={{ y: 30, opacity: 0 }}
